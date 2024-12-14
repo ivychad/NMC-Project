@@ -1,1 +1,10 @@
 ".idea/"
+
+data
+
+trained_weights_test2.npy
+trained_weights_test3.npy
+trained_weights_test4.npy
+trained_weights_test6.npy
+
+trained_weights.npy
