@@ -1,7 +1,0 @@
-nengo==3.2
-nengo-dl==3.6.0
-numpy==1.25.2
-tensorflow[and_cuda]==2.11
-tensorflow==2.11
-tensorflow-gpu==2.11
-matplotlib==3.9.2
