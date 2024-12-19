@@ -1,0 +1,49 @@
+
+train_weights_adex_1000
+
+T = 200
+N = 2785
+N_main = 2000
+excitatory_ratio = 0.8
+connection_prob = 0.01
+N_input = 784
+subset_size = 200
+input_prob = 0.01
+
+
+weight_min = -10  # use -10 for adex and -1.5 for HH
+weight_max = 10 # use 10 for adex and 1.5 for HH
+weight_mul = 5.0  # use 5.0 for adex and 1.0 for HH
+teach_exc = 10.0
+teach_inhb = -10.0
+
+image_num = 1000
+
+Runtime 11sec per image, total 1.5h
+
+
+
+trained_weights_hh_500
+
+T = 50
+N = 2785
+N_main = 2000
+excitatory_ratio = 0.8
+connection_prob = 0.01
+N_input = 784
+subset_size = 200
+input_prob = 0.01
+
+
+weight_min = -1.5  # use -10 for adex and -1.5 for HH
+weight_max = 1.5 # use 10 for adex and 1.5 for HH
+weight_mul = 1.0  # use 5.0 for adex and 1.0 for HH
+teach_exc = 1.0
+teach_inhb = -1.0
+
+image_num = 500
+
+Runtime 1min 46sec per image, total
+
+
+
