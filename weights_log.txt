@@ -43,7 +43,33 @@ teach_inhb = -1.0
 
 image_num = 500
 
-Runtime 1min 46sec per image, total
+Runtime 1min 46sec per image, total 850min
+
+
+
+
+
+trained_weights_hh_fancy_1000
+
+N = 1785
+N_main = 1000
+excitatory_ratio = 0.8
+connection_prob = 0.001
+N_input = 784
+subset_size = 100
+input_prob = 0.001
+
+
+weight_min = -1.5  # use -10 for adex and -1.5 for HH
+weight_max = 1.5 # use 10 for adex and 1.5 for HH
+weight_mul = 1.0  # use 5.0 for adex and 1.0 for HH
+teach_exc = 1.0
+teach_inhb = -1.0
+
+image_num = 1000
+T=50
+
+Runtime 55sec per image, total 
 
 
 
