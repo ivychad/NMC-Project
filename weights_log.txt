@@ -69,7 +69,7 @@ teach_inhb = -1.0
 image_num = 1000
 T=50
 
-Runtime 55sec per image, total 
+Runtime 55sec per image, total 930min
 
 
 
